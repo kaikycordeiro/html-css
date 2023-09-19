@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-color: #7681e2;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans';
+}
+img {
+    border: 3px solid rgb(235, 201, 12);
+    border-radius: 50%;
+}
+section {
+    margin: auto;
+    font-family: Arial;
+    border-radius: 5px;
+    padding: 7px;
+    background-color:#a9a9ee;
+    width: 500px;
+    height: 500px;
+    box-shadow: 2px 2px 7px black;
+    text-shadow: 1.3px 1.3px black ;
+}
+footer {
+    text-align: left;
+}
+h1 {
+    text-shadow: 2px 2px black ;
+}

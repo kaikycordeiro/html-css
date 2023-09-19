@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em outros dispositivos ou apenas de zoom através do seu navegador.</p>
+
+    <picture>
+        <!-- A ORDEM IMPORTA, MENOR PARA MAIOR. -->
+        <!-- Para telas de 750 pixels Max. -->
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        
+        <!-- Para telas de 1050 pixels Max. -->
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+
+        <!-- Para telas maiores de 1050 pixels. -->
+        <img src="imagens/foto-g.png" alt="fotogrande">
+
+        <h1>Reproduzindo Áudio</h1>
+
+        <p>Vamos reproduzir áudio via HTML.</p>
+
+        <!-- Maneira 1: -->
+        <audio src="midia/musicasite.mp3" controls></audio>
+
+        <!-- Maneira 2: -->
+        <!-- <audio preload="metadata" controls loop>
+            <source src="midia/musicasite.mp3" type="audio/mpeg">
+        </audio> -->
+
+        <!-- Compativel: MP3 WAV DGG -->
+
+    </picture>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sobre mim</h1>
+
+    <section>
+    <h2>Quem sou eu?</h2>
+    <img src="icon.jpg" alt="eu" id="eu" onmouseover="mudar()">
+    <p>Meu nome é Kaiky, tenho 18 anos de idade e moro em São Paulo.<br> Estou criando este site para um exercício do curso de HTML e CSS do cursoemvideo.</p>
+    </section>
+
+    <footer>
+    <p style="font-size:20px; text-shadow:2px 2px black;">Contatos:</p>
+    <ul type="square" style="color:black;">
+        <li><a href="https://br.linkedin.com/in/kaiky-dos-santos-cordeiro-5b1b16240" target="_blank" rel="external">Linkedin</a></li>
+        <li><a href="https://www.youtube.com/channel/UCstX-0XnKdFu4m0aZEWGY-g" target="_blank" rel="external">Youtube</a></li>
+        <li><a href="https://www.instagram.com/kaikycordeiro30/" target="_blank" rel="external">Instagram</a></li>
+    </ul>
+    </footer>
+
+    <script>
+        function mudar() {
+            var img = document.getElementById('eu')
+            img.setAttribute('icon.jpg', 'susto.jpg')
+            
+        }
+    </script>
+</body>
+</html>

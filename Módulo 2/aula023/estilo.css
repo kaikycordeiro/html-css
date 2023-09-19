@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 0px;
+    background-color: #95e2bc;
+}
+
+header {
+    position: relative;
+    margin-top: -1.4em;
+    background-image: linear-gradient(to bottom
+    , #2fca7d, #191f06);
+    text-align: center;
+    height: 200px;
+    color: white;
+    box-shadow: 0px 1px 7px 1px rgba(0, 0, 0, 0.507);
+}
+
+#principal {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-shadow: 1.2px 1px 1px black;
+    font-weight: normal;
+    padding-top: 20px;
+}
+
+header > nav {
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 4px;
+}
+
+header > p {
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1.2px 1px 1px black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    padding: 2px;
+    border-radius: 2px;
+    font-weight: 500;
+}
+
+a:hover {
+    background-color: rgb(109, 161, 109);
+}
+
+#historia {
+    position: relative;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 900px;
+    padding: 15px;
+    box-shadow: 1px 0px 5px 1px rgba(0, 0, 0, 0.541);
+    border-radius: 0px 0px 5px 5px;
+}
+
+.titand {
+    font-family: 'Android', sans-serif;
+    text-indent: 0px;
+    color: rgb(13, 65, 13);
+    background-color: rgba(128, 128, 128, 0.37);
+}
+
+#bug {
+    color: rgb(13, 65, 13);
+    font-size: 2em;
+    text-indent: 0px;
+    font-family: 'Android', sans-serif;
+}
+
+p {
+    text-indent: 35px;
+    text-align: justify;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#videoandroid {
+    position: relative;
+    background-color: rgb(13, 112, 13);
+    padding: 10px;
+    margin: auto;
+}
+
+#androidvideo {
+    position: relative;
+    margin: auto;
+    display: block;
+}
+
+#final {
+    background-color: rgba(167, 137, 137, 0.5);
+    border-radius: 0px 0px 5px 5px;
+    padding: 8px;
+    text-indent: 0px;
+    box-shadow: 3px 3px 4px 1px rgba(0, 0, 0, 0.315);
+}
+
+#fimp {
+    text-indent: 0px;
+    background-color: rgb(72, 160, 72);
+    padding: 8px;
+    border-radius: 5px 5px 0px 0px;
+    margin: 10px 0px 0px 0px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 3px 0px 4px 1px rgba(0, 0, 0, 0.301);
+}
+
+#listas {
+    display: flex;
+    
+}
+
+.listadeand {
+    margin-right: 100px;
+    padding: 20px;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    background-color: rgb(23, 63, 23);
+    color: white;
+    padding: 5px;
+}

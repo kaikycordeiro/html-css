@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está sendo hospedado no meu próprio servidor.</p>
+
+    <!-- Metodo para apenas um tipo de video: -->
+    <!-- <video src="midia/meuvideo.mp4" width="500" controls loop></video> -->
+
+    <!-- Metodo para diversos tipos de video: -->
+    <video controls loop width="560" height="315">
+        <source src="midia/meuvideo.m4v" type="video/mp4">
+        <source src="midia/meuvideo.mp4" type="video/mp4">
+        <source src="midia/meuvideo.mp4" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeo.</p>
+    </video>
+
+    <h1>Inserindo vídeos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=8jLZtgFWmYef6Ryc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeo do vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/19358737?h=c9d88c14f5" width="560" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
