@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body {
+    height: 97vh;
+    border: 1px dashed black;
+    background-image: url('../imagens/pattern003.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+body:hover {
+    background-position: top right;
+}
