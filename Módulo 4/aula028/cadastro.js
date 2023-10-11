@@ -1,1 +1,0 @@
-Os dados foram enviados! Aprenda JS para descobrir o que fazer com eles!
