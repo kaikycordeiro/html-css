@@ -7,8 +7,9 @@
     <title>Menu Responsivo</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="resize()">
     <header>
         <h1>Meu Site</h1>
         <i id="burguer" class="material-icons" onclick="burguer()">menu</i>
@@ -48,6 +49,14 @@
             } else {
                 itens.style.display = 'none'
                 view = false
+            }
+        }
+
+        function resize() {
+            if(window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
             }
         }
     </script>
