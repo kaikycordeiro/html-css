@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Responsivo</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burguer" class="material-icons" onclick="burguer()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam cum animi dolorem expedita minima et quos soluta voluptatibus in necessitatibus a qui fuga ab laborum, inventore quidem exercitationem totam ipsum.
+            Itaque sit veritatis nulla aspernatur perferendis animi doloribus deserunt possimus enim adipisci aperiam neque officia quia architecto dolores at earum recusandae cupiditate unde, corporis alias ea, blanditiis vitae? Deserunt, unde?
+            </p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, pariatur accusantium voluptates dolor quia voluptas eligendi ipsa blanditiis debitis incidunt accusamus earum consequuntur reiciendis quasi nesciunt doloribus ullam. Similique, id.
+            Eos placeat rerum reiciendis dolorum neque aliquid. Dolorem non consequatur quaerat, reiciendis voluptas magnam quia alias dignissimos nulla eaque recusandae dolor molestiae, error aliquid rem. Quaerat libero minus dignissimos sit.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, vero voluptatum quod deserunt, atque dicta animi accusantium quam porro eveniet, nam voluptatibus architecto nobis! Totam optio tempore repellendus nam deserunt?
+            Voluptate qui ducimus nesciunt, aut optio id dicta molestiae quibusdam praesentium dolorum sapiente, impedit obcaecati temporibus minima animi et dolorem veritatis suscipit? Deserunt voluptate quia consequuntur, sint soluta laboriosam placeat.</p>
+        </article>
+    </main>
+
+    <script>
+        let view = false
+
+        function burguer() {
+            if(view == false) {
+                itens.style.display = 'block'
+                view = true
+            } else {
+                itens.style.display = 'none'
+                view = false
+            }
+        }
+    </script>
+</body>
+</html>
